@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-const Home = () => {
+const Home
+
+= () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
@@ -268,4 +270,6 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home
+
+;
